@@ -1,0 +1,16 @@
+rubric:
+  - id: coverage
+    desc: "Covers price trends, volatility, and recent movers for each symbol."
+    weight: 0.3
+
+  - id: recency
+    desc: "Uses up-to-date prices and news data."
+    weight: 0.2
+
+  - id: correctness
+    desc: "Metrics and summaries align with computed statistics."
+    weight: 0.3
+
+  - id: actionability
+    desc: "Provides clear takeaways or suggested next steps."
+    weight: 0.2

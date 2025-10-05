@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "agents"
+		},
+		{
+			"path": "config"
+		},
+		{
+			"path": "core"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "scikit_learn_data"
+		},
+		{
+			"path": "tools"
+		},
+		{
+			"path": "utils"
+		}
+	]
+}

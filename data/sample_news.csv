@@ -1,0 +1,8 @@
+symbol,title,publisher,link,providerPublishTime
+JPM,JPMorgan expands AI hiring in 2025,Reuters,https://example.com/jpm1,1730500000
+JPM,Jamie Dimon comments on global economy,Bloomberg,https://example.com/jpm2,1730510000
+^GSPC,Stocks climb as inflation data eases,MarketWatch,https://example.com/sp500,1730520000
+^IXIC,Nasdaq surges amid tech rally,CNBC,https://example.com/nasdaq,1730530000
+ES=F,S&P futures steady before earnings week,Financial Times,https://example.com/esf,1730540000
+NQ=F,Nasdaq futures rise on AI sector optimism,The Verge,https://example.com/nqf,1730550000
+GC=F,Gold prices gain amid market uncertainty,Kitco News,https://example.com/gcf,1730560000

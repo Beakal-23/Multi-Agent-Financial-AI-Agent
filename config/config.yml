@@ -1,0 +1,37 @@
+# ============================
+# CONFIGURATION FILE
+# Multi-Agent Financial Analysis System
+# ============================
+
+universe:
+  tickers:
+    - JPM
+    - ^GSPC
+    - ^IXIC
+    - ES=F
+    - NQ=F
+    - GC=F
+  companies_for_intel:
+    - "JPMorgan Chase & Co"
+    - "Fidelity Investments"
+    - "Vanguard Group"
+
+prices:
+  period: "6mo"
+  interval: "1d"
+
+routing:
+  map:
+    prices: market
+    news: news
+    summarize: market      # 👈 new: handled by MarketAgent
+    evaluate: evalopt      # 👈 new: handled by EvaluatorOptimizer
+    filings: filing
+  fallback: skip
+
+
+
+news:
+  provider: "csv"            # Force use of sample_news.csv
+  csv_path: "data/sample_news.csv"
+  max_per_symbol: 10
